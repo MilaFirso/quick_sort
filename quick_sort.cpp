@@ -16,7 +16,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 
-	int arr[] = { 3, 43, 38, 29, 18, 72, 57, 61, 2, 33 };
+	int arr[] = { 3, 43, 38, 29, 18, 72, 57, 61, 33 };
 
 	std::cout << "Исходный массив: \n";
 	arrPrint(arr, std::size(arr));
